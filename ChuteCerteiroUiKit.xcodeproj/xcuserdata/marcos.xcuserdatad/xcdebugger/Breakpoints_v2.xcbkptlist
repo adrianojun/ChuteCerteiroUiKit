@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C6BDD946-4B72-4E2C-B2A1-923659A74B2B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF7A23D4-E661-48DB-9F56-7041AB019CEB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChuteCerteiroUiKit/List/CountriesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "fetchRemoteMovies()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EF7A23D4-E661-48DB-9F56-7041AB019CEB - 63a634bccacbdb0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ChuteCerteiroUiKit.Country) -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChuteCerteiroUiKit.CountriesViewController.fetchRemoteMovies() -&gt; ()"
+                  moduleName = "ChuteCerteiroUiKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcos/Projetos/ChuteCerteiroUiKit/ChuteCerteiroUiKit/List/CountriesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "302">
+               </Location>
+               <Location
+                  uuid = "EF7A23D4-E661-48DB-9F56-7041AB019CEB - 653fc3da8fea1765"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChuteCerteiroUiKit.CountriesViewController.fetchRemoteMovies() -&gt; ()"
+                  moduleName = "ChuteCerteiroUiKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcos/Projetos/ChuteCerteiroUiKit/ChuteCerteiroUiKit/List/CountriesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "913">
+               </Location>
+               <Location
+                  uuid = "EF7A23D4-E661-48DB-9F56-7041AB019CEB - 63a634bccacbdb6e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ChuteCerteiroUiKit.Country) -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChuteCerteiroUiKit.CountriesViewController.fetchRemoteMovies() -&gt; ()"
+                  moduleName = "ChuteCerteiroUiKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcos/Projetos/ChuteCerteiroUiKit/ChuteCerteiroUiKit/List/CountriesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "74">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29B9D8F7-9EEC-411C-9E87-396B863C3E56"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChuteCerteiroUiKit/List/CountriesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "fetchRemoteMovies()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "29B9D8F7-9EEC-411C-9E87-396B863C3E56 - 653fc3da8fea17a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChuteCerteiroUiKit.CountriesViewController.fetchRemoteMovies() -&gt; ()"
+                  moduleName = "ChuteCerteiroUiKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcos/Projetos/ChuteCerteiroUiKit/ChuteCerteiroUiKit/List/CountriesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "913">
+               </Location>
+               <Location
+                  uuid = "29B9D8F7-9EEC-411C-9E87-396B863C3E56 - 63a634bccacbdb2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ChuteCerteiroUiKit.Country) -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChuteCerteiroUiKit.CountriesViewController.fetchRemoteMovies() -&gt; ()"
+                  moduleName = "ChuteCerteiroUiKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcos/Projetos/ChuteCerteiroUiKit/ChuteCerteiroUiKit/List/CountriesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "74">
+               </Location>
+               <Location
+                  uuid = "29B9D8F7-9EEC-411C-9E87-396B863C3E56 - 653fc3da8fea17a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ChuteCerteiroUiKit.CountriesViewController.fetchRemoteMovies() -&gt; ()"
+                  moduleName = "ChuteCerteiroUiKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marcos/Projetos/ChuteCerteiroUiKit/ChuteCerteiroUiKit/List/CountriesViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "889">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7C447F7-D222-4B22-9186-EC63E5F8FDEE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChuteCerteiroUiKit/List/CountriesViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "fetchRemoteMovies()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

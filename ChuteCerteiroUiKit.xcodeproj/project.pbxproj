@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		8D30008F2AAB8CEE000D7F81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D30008E2AAB8CEE000D7F81 /* AppDelegate.swift */; };
 		8D3000912AAB8CEE000D7F81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000902AAB8CEE000D7F81 /* SceneDelegate.swift */; };
-		8D3000932AAB8CEE000D7F81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000922AAB8CEE000D7F81 /* ViewController.swift */; };
-		8D3000962AAB8CEE000D7F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3000942AAB8CEE000D7F81 /* Main.storyboard */; };
 		8D3000982AAB8CF0000D7F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3000972AAB8CF0000D7F81 /* Assets.xcassets */; };
 		8D30009B2AAB8CF0000D7F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3000992AAB8CF0000D7F81 /* LaunchScreen.storyboard */; };
 		8D3000A62AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000A52AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests.swift */; };
 		8D3000B02AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000AF2AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests.swift */; };
 		8D3000B22AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000B12AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITestsLaunchTests.swift */; };
+		8D3000C22AAB9323000D7F81 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000C12AAB9323000D7F81 /* CountriesViewController.swift */; };
+		8D3000C52AAB9A9C000D7F81 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000C42AAB9A9C000D7F81 /* Country.swift */; };
+		8D3000C72AAB9DA7000D7F81 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000C62AAB9DA7000D7F81 /* CountryCell.swift */; };
+		8D3000CA2AABAD77000D7F81 /* RemoteCountries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000C92AABAD77000D7F81 /* RemoteCountries.swift */; };
+		8D3000CD2AABAE80000D7F81 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000CC2AABAE80000D7F81 /* DetailViewController.swift */; };
+		8D3000CF2AABAF5B000D7F81 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3000CE2AABAF5B000D7F81 /* Detail.storyboard */; };
+		8D3000D22AABB27D000D7F81 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000D12AABB27D000D7F81 /* UIImageView+Download.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		8D30008B2AAB8CEE000D7F81 /* ChuteCerteiroUiKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuteCerteiroUiKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D30008E2AAB8CEE000D7F81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D3000902AAB8CEE000D7F81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D3000922AAB8CEE000D7F81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8D3000952AAB8CEE000D7F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D3000972AAB8CF0000D7F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D30009A2AAB8CF0000D7F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D30009C2AAB8CF0000D7F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,13 @@
 		8D3000AB2AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuteCerteiroUiKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3000AF2AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuteCerteiroUiKitUITests.swift; sourceTree = "<group>"; };
 		8D3000B12AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuteCerteiroUiKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D3000C12AAB9323000D7F81 /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		8D3000C42AAB9A9C000D7F81 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		8D3000C62AAB9DA7000D7F81 /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		8D3000C92AABAD77000D7F81 /* RemoteCountries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCountries.swift; sourceTree = "<group>"; };
+		8D3000CC2AABAE80000D7F81 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8D3000CE2AABAF5B000D7F81 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		8D3000D12AABB27D000D7F81 /* UIImageView+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,12 @@
 		8D30008D2AAB8CEE000D7F81 /* ChuteCerteiroUiKit */ = {
 			isa = PBXGroup;
 			children = (
+				8D3000D02AABB252000D7F81 /* Extensions */,
+				8D3000CB2AABAE5A000D7F81 /* Detail */,
+				8D3000C32AAB99F5000D7F81 /* Model */,
+				8D3000C02AAB9308000D7F81 /* List */,
 				8D30008E2AAB8CEE000D7F81 /* AppDelegate.swift */,
 				8D3000902AAB8CEE000D7F81 /* SceneDelegate.swift */,
-				8D3000922AAB8CEE000D7F81 /* ViewController.swift */,
-				8D3000942AAB8CEE000D7F81 /* Main.storyboard */,
 				8D3000972AAB8CF0000D7F81 /* Assets.xcassets */,
 				8D3000992AAB8CF0000D7F81 /* LaunchScreen.storyboard */,
 				8D30009C2AAB8CF0000D7F81 /* Info.plist */,
@@ -125,6 +137,41 @@
 				8D3000B12AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITestsLaunchTests.swift */,
 			);
 			path = ChuteCerteiroUiKitUITests;
+			sourceTree = "<group>";
+		};
+		8D3000C02AAB9308000D7F81 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				8D3000C12AAB9323000D7F81 /* CountriesViewController.swift */,
+				8D3000C62AAB9DA7000D7F81 /* CountryCell.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		8D3000C32AAB99F5000D7F81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D3000C42AAB9A9C000D7F81 /* Country.swift */,
+				8D3000C92AABAD77000D7F81 /* RemoteCountries.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D3000CB2AABAE5A000D7F81 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				8D3000CC2AABAE80000D7F81 /* DetailViewController.swift */,
+				8D3000CE2AABAF5B000D7F81 /* Detail.storyboard */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		8D3000D02AABB252000D7F81 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D3000D12AABB27D000D7F81 /* UIImageView+Download.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +280,7 @@
 			files = (
 				8D30009B2AAB8CF0000D7F81 /* LaunchScreen.storyboard in Resources */,
 				8D3000982AAB8CF0000D7F81 /* Assets.xcassets in Resources */,
-				8D3000962AAB8CEE000D7F81 /* Main.storyboard in Resources */,
+				8D3000CF2AABAF5B000D7F81 /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +305,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3000932AAB8CEE000D7F81 /* ViewController.swift in Sources */,
 				8D30008F2AAB8CEE000D7F81 /* AppDelegate.swift in Sources */,
 				8D3000912AAB8CEE000D7F81 /* SceneDelegate.swift in Sources */,
+				8D3000C72AAB9DA7000D7F81 /* CountryCell.swift in Sources */,
+				8D3000C52AAB9A9C000D7F81 /* Country.swift in Sources */,
+				8D3000D22AABB27D000D7F81 /* UIImageView+Download.swift in Sources */,
+				8D3000CA2AABAD77000D7F81 /* RemoteCountries.swift in Sources */,
+				8D3000C22AAB9323000D7F81 /* CountriesViewController.swift in Sources */,
+				8D3000CD2AABAE80000D7F81 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8D3000942AAB8CEE000D7F81 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8D3000952AAB8CEE000D7F81 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8D3000992AAB8CF0000D7F81 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +485,6 @@
 				INFOPLIST_FILE = ChuteCerteiroUiKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +511,6 @@
 				INFOPLIST_FILE = ChuteCerteiroUiKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
