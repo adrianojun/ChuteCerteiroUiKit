@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D30008F2AAB8CEE000D7F81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D30008E2AAB8CEE000D7F81 /* AppDelegate.swift */; };
+		8D3000912AAB8CEE000D7F81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000902AAB8CEE000D7F81 /* SceneDelegate.swift */; };
+		8D3000932AAB8CEE000D7F81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000922AAB8CEE000D7F81 /* ViewController.swift */; };
+		8D3000962AAB8CEE000D7F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3000942AAB8CEE000D7F81 /* Main.storyboard */; };
+		8D3000982AAB8CF0000D7F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3000972AAB8CF0000D7F81 /* Assets.xcassets */; };
+		8D30009B2AAB8CF0000D7F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3000992AAB8CF0000D7F81 /* LaunchScreen.storyboard */; };
+		8D3000A62AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000A52AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests.swift */; };
+		8D3000B02AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000AF2AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests.swift */; };
+		8D3000B22AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3000B12AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D3000A22AAB8CF0000D7F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D3000832AAB8CEE000D7F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D30008A2AAB8CEE000D7F81;
+			remoteInfo = ChuteCerteiroUiKit;
+		};
+		8D3000AC2AAB8CF0000D7F81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D3000832AAB8CEE000D7F81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D30008A2AAB8CEE000D7F81;
+			remoteInfo = ChuteCerteiroUiKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D30008B2AAB8CEE000D7F81 /* ChuteCerteiroUiKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuteCerteiroUiKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D30008E2AAB8CEE000D7F81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D3000902AAB8CEE000D7F81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D3000922AAB8CEE000D7F81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D3000952AAB8CEE000D7F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D3000972AAB8CF0000D7F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D30009A2AAB8CF0000D7F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D30009C2AAB8CF0000D7F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D3000A12AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuteCerteiroUiKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3000A52AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuteCerteiroUiKitTests.swift; sourceTree = "<group>"; };
+		8D3000AB2AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuteCerteiroUiKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3000AF2AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuteCerteiroUiKitUITests.swift; sourceTree = "<group>"; };
+		8D3000B12AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuteCerteiroUiKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D3000882AAB8CEE000D7F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D30009E2AAB8CF0000D7F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3000A82AAB8CF0000D7F81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D3000822AAB8CEE000D7F81 = {
+			isa = PBXGroup;
+			children = (
+				8D30008D2AAB8CEE000D7F81 /* ChuteCerteiroUiKit */,
+				8D3000A42AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests */,
+				8D3000AE2AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests */,
+				8D30008C2AAB8CEE000D7F81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D30008C2AAB8CEE000D7F81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D30008B2AAB8CEE000D7F81 /* ChuteCerteiroUiKit.app */,
+				8D3000A12AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests.xctest */,
+				8D3000AB2AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D30008D2AAB8CEE000D7F81 /* ChuteCerteiroUiKit */ = {
+			isa = PBXGroup;
+			children = (
+				8D30008E2AAB8CEE000D7F81 /* AppDelegate.swift */,
+				8D3000902AAB8CEE000D7F81 /* SceneDelegate.swift */,
+				8D3000922AAB8CEE000D7F81 /* ViewController.swift */,
+				8D3000942AAB8CEE000D7F81 /* Main.storyboard */,
+				8D3000972AAB8CF0000D7F81 /* Assets.xcassets */,
+				8D3000992AAB8CF0000D7F81 /* LaunchScreen.storyboard */,
+				8D30009C2AAB8CF0000D7F81 /* Info.plist */,
+			);
+			path = ChuteCerteiroUiKit;
+			sourceTree = "<group>";
+		};
+		8D3000A42AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D3000A52AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests.swift */,
+			);
+			path = ChuteCerteiroUiKitTests;
+			sourceTree = "<group>";
+		};
+		8D3000AE2AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D3000AF2AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests.swift */,
+				8D3000B12AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITestsLaunchTests.swift */,
+			);
+			path = ChuteCerteiroUiKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D30008A2AAB8CEE000D7F81 /* ChuteCerteiroUiKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D3000B52AAB8CF0000D7F81 /* Build configuration list for PBXNativeTarget "ChuteCerteiroUiKit" */;
+			buildPhases = (
+				8D3000872AAB8CEE000D7F81 /* Sources */,
+				8D3000882AAB8CEE000D7F81 /* Frameworks */,
+				8D3000892AAB8CEE000D7F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChuteCerteiroUiKit;
+			productName = ChuteCerteiroUiKit;
+			productReference = 8D30008B2AAB8CEE000D7F81 /* ChuteCerteiroUiKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D3000A02AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D3000B82AAB8CF0000D7F81 /* Build configuration list for PBXNativeTarget "ChuteCerteiroUiKitTests" */;
+			buildPhases = (
+				8D30009D2AAB8CF0000D7F81 /* Sources */,
+				8D30009E2AAB8CF0000D7F81 /* Frameworks */,
+				8D30009F2AAB8CF0000D7F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D3000A32AAB8CF0000D7F81 /* PBXTargetDependency */,
+			);
+			name = ChuteCerteiroUiKitTests;
+			productName = ChuteCerteiroUiKitTests;
+			productReference = 8D3000A12AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D3000AA2AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D3000BB2AAB8CF0000D7F81 /* Build configuration list for PBXNativeTarget "ChuteCerteiroUiKitUITests" */;
+			buildPhases = (
+				8D3000A72AAB8CF0000D7F81 /* Sources */,
+				8D3000A82AAB8CF0000D7F81 /* Frameworks */,
+				8D3000A92AAB8CF0000D7F81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D3000AD2AAB8CF0000D7F81 /* PBXTargetDependency */,
+			);
+			name = ChuteCerteiroUiKitUITests;
+			productName = ChuteCerteiroUiKitUITests;
+			productReference = 8D3000AB2AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D3000832AAB8CEE000D7F81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8D30008A2AAB8CEE000D7F81 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8D3000A02AAB8CF0000D7F81 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8D30008A2AAB8CEE000D7F81;
+					};
+					8D3000AA2AAB8CF0000D7F81 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8D30008A2AAB8CEE000D7F81;
+					};
+				};
+			};
+			buildConfigurationList = 8D3000862AAB8CEE000D7F81 /* Build configuration list for PBXProject "ChuteCerteiroUiKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D3000822AAB8CEE000D7F81;
+			productRefGroup = 8D30008C2AAB8CEE000D7F81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D30008A2AAB8CEE000D7F81 /* ChuteCerteiroUiKit */,
+				8D3000A02AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests */,
+				8D3000AA2AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D3000892AAB8CEE000D7F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D30009B2AAB8CF0000D7F81 /* LaunchScreen.storyboard in Resources */,
+				8D3000982AAB8CF0000D7F81 /* Assets.xcassets in Resources */,
+				8D3000962AAB8CEE000D7F81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D30009F2AAB8CF0000D7F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3000A92AAB8CF0000D7F81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D3000872AAB8CEE000D7F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3000932AAB8CEE000D7F81 /* ViewController.swift in Sources */,
+				8D30008F2AAB8CEE000D7F81 /* AppDelegate.swift in Sources */,
+				8D3000912AAB8CEE000D7F81 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D30009D2AAB8CF0000D7F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3000A62AAB8CF0000D7F81 /* ChuteCerteiroUiKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D3000A72AAB8CF0000D7F81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3000B22AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITestsLaunchTests.swift in Sources */,
+				8D3000B02AAB8CF0000D7F81 /* ChuteCerteiroUiKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D3000A32AAB8CF0000D7F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D30008A2AAB8CEE000D7F81 /* ChuteCerteiroUiKit */;
+			targetProxy = 8D3000A22AAB8CF0000D7F81 /* PBXContainerItemProxy */;
+		};
+		8D3000AD2AAB8CF0000D7F81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D30008A2AAB8CEE000D7F81 /* ChuteCerteiroUiKit */;
+			targetProxy = 8D3000AC2AAB8CF0000D7F81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D3000942AAB8CEE000D7F81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D3000952AAB8CEE000D7F81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D3000992AAB8CF0000D7F81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D30009A2AAB8CF0000D7F81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D3000B32AAB8CF0000D7F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D3000B42AAB8CF0000D7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D3000B62AAB8CF0000D7F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChuteCerteiroUiKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChuteCerteiro.ChuteCerteiroUiKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D3000B72AAB8CF0000D7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChuteCerteiroUiKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChuteCerteiro.ChuteCerteiroUiKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D3000B92AAB8CF0000D7F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChuteCerteiro.ChuteCerteiroUiKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChuteCerteiroUiKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChuteCerteiroUiKit";
+			};
+			name = Debug;
+		};
+		8D3000BA2AAB8CF0000D7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChuteCerteiro.ChuteCerteiroUiKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChuteCerteiroUiKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChuteCerteiroUiKit";
+			};
+			name = Release;
+		};
+		8D3000BC2AAB8CF0000D7F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChuteCerteiro.ChuteCerteiroUiKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChuteCerteiroUiKit;
+			};
+			name = Debug;
+		};
+		8D3000BD2AAB8CF0000D7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChuteCerteiro.ChuteCerteiroUiKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChuteCerteiroUiKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D3000862AAB8CEE000D7F81 /* Build configuration list for PBXProject "ChuteCerteiroUiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3000B32AAB8CF0000D7F81 /* Debug */,
+				8D3000B42AAB8CF0000D7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D3000B52AAB8CF0000D7F81 /* Build configuration list for PBXNativeTarget "ChuteCerteiroUiKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3000B62AAB8CF0000D7F81 /* Debug */,
+				8D3000B72AAB8CF0000D7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D3000B82AAB8CF0000D7F81 /* Build configuration list for PBXNativeTarget "ChuteCerteiroUiKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3000B92AAB8CF0000D7F81 /* Debug */,
+				8D3000BA2AAB8CF0000D7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D3000BB2AAB8CF0000D7F81 /* Build configuration list for PBXNativeTarget "ChuteCerteiroUiKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D3000BC2AAB8CF0000D7F81 /* Debug */,
+				8D3000BD2AAB8CF0000D7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D3000832AAB8CEE000D7F81 /* Project object */;
+}
