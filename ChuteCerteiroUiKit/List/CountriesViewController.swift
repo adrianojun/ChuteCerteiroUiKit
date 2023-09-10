@@ -59,38 +59,24 @@ class CountriesViewController: UIViewController {
         ])
     }
 
-    private func fetchRemoteMovies() {
+    private func fetchRemoteCountries() async throws -> {
         let url = URL(string: "https://apiv3.apifootball.com/?action=get_countries&APIkey=fe56acd2acb45d94a9f1331149dc55aa2846896f38ecf1484de36d6a3cea87f0")!
 
         let request = URLRequest(url: url)
         
         print("Ok!")
 
-        let task = URLSession.shared.dataTask(with: request) { data, _, error in
-            if error != nil { return }
+        let (data, _) = try await URLSession.shared.data(for: request)
 
-            guard let countriesData = data else { return }
+        self.countries = try JSONDecoder().decode([Country].self, from: data)
 
-            let decoder = JSONDecoder()
-            decoder.keyDecodingStrategy = .convertFromSnakeCase
-
-            guard let remoteCountries = try? decoder.decode(RemoteCountries.self, from: countriesData) else { return }
-
-            self.countries = remoteCountries.results
-            
-            self.countries.forEach { country in
-                print(country.countryID)
-                print(country.countryName)
-                print(country.countryLogo)
-            }
-
-            DispatchQueue.main.async {
-                self.tableView.reloadData()
-            }
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
         }
+
         print("Ok!")
 
-        task.resume()
+        return
     }
 }
 
