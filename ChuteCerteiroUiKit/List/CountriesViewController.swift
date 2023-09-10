@@ -36,7 +36,13 @@ class CountriesViewController: UIViewController {
         tableView.delegate = self
         addViewsInHierarchy()
         setupConstraints()
-        fetchRemoteMovies()
+        Task {
+            do {
+                try await fetchRemoteCountries()
+            } catch {
+                print("Erro: \(error)")
+            }
+        }
     }
     
     private func addViewsInHierarchy() {
@@ -59,7 +65,7 @@ class CountriesViewController: UIViewController {
         ])
     }
 
-    private func fetchRemoteCountries() async throws -> {
+    private func fetchRemoteCountries() async throws -> Void {
         let url = URL(string: "https://apiv3.apifootball.com/?action=get_countries&APIkey=fe56acd2acb45d94a9f1331149dc55aa2846896f38ecf1484de36d6a3cea87f0")!
 
         let request = URLRequest(url: url)
